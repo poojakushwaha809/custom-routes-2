@@ -13,16 +13,8 @@ Rails.application.routes.draw do
 
 	
 	get 'articles', to: 'articles#article_pooja_index'
-	get 'articles/article_pooja_new', to: 'articles#article_pooja_new'
+	get 'articles/article_pooja_new/naya_article', to: 'articles#article_pooja_new'
     post 'new_articles', to: 'articles#article_pooja_create'
 
 
-    # get 'articles/:id/edit', to: 'articles#article_pooja_edit',  as: :edit_pooja_acticle
-    # patch 'articles/:id', to: 'articles#article_pooja_update'
-    # delete 'articles/:id', to: 'articles#article_pooja_destroy', as: :destroy_article
-    
-
-
-	
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
